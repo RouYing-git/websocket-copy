@@ -9,6 +9,7 @@ public class clientController {
 //renhongying
     @GetMapping("/client")
     public ModelAndView client(){
+        //memememe
         return new ModelAndView("client");
     }
     //hahaha
