@@ -6,9 +6,10 @@ import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 public class clientController {
-
+//renhongying
     @GetMapping("/client")
     public ModelAndView client(){
         return new ModelAndView("client");
     }
+    //hahaha
 }
