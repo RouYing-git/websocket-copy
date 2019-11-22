@@ -9,7 +9,7 @@ import java.util.concurrent.CopyOnWriteArraySet;
 @Component
 @ServerEndpoint("/webSocket")
 public class WebSocket {
-
+//给另一个库2dev
     private Session session;
 
     private static CopyOnWriteArraySet<WebSocket> webSockets=new CopyOnWriteArraySet<>();
